@@ -1,0 +1,7 @@
+\\Mac\Home\Desktop\RPSLS\bin\Debug\RPSLS.exe.config
+\\Mac\Home\Desktop\RPSLS\bin\Debug\RPSLS.exe
+\\Mac\Home\Desktop\RPSLS\bin\Debug\RPSLS.pdb
+\\Mac\Home\Desktop\RPSLS\obj\Debug\RPSLS.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\RPSLS\obj\Debug\RPSLS.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\RPSLS\obj\Debug\RPSLS.exe
+\\Mac\Home\Desktop\RPSLS\obj\Debug\RPSLS.pdb
