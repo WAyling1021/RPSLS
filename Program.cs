@@ -10,8 +10,14 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
             Rules rule = new Rules();
             rule.DisplayRules();
+            Player makeChoice = new Player();
+            makeChoice.ChooseGesture();
+            Game game = new Game();
+            game.RunGame();
         }
+
     }
 }

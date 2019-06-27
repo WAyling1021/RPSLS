@@ -6,32 +6,30 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class MakeChoice
+    class Player
     {
         //member variables 
-        string choice;
-        int chances; 
+        public string choice;
+        public List<string> gestures = new List<string>() { "rock", "paper", "scissors", "Spock", "Lizard" };
+
+        public Player()
+        {
+
+        }
+
+        internal void ChooseGesture()
+        {
+            throw new NotImplementedException();
+        }
 
         //constructor 
-        public MakeChoice(string Choice)
+        public Player(string Choice)
         {
             this.choice = Choice;
-            int = 3;
+
         }
 
         //member methods 
-        public MakeChoice()
-        {
-            Console.WriteLine("Please choose rock, paper, scssior, lizard, spock");
-            choice = Console.ReadLine(); 
-        }
-        public MakeChoice()
-        {
-
-        }
-        public MakeChoice()
-        {
-
-        }
+        
     }
 }
