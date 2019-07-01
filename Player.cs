@@ -7,21 +7,19 @@ using System.Threading.Tasks;
 namespace RPSLS
 {
     class Player
-    {
+    { 
         //member variables 
         public string choice;
-        public List<string> gestures = new List<string>() { "rock", "paper", "scissors", "Spock", "Lizard" };
+        internal string gesture;
+        string playerName;
+        string selectedGesture;
+        public int score;
+        
 
-        public Player()
+        public Player() 
         {
-
+            
         }
-
-        internal void ChooseGesture()
-        {
-            throw new NotImplementedException();
-        }
-
         //constructor 
         public Player(string Choice)
         {
@@ -30,6 +28,12 @@ namespace RPSLS
         }
 
         //member methods 
-        
+        public virtual void ChooseGesture()
+        {
+            Console.WriteLine("What gesture do you want?");
+            var thing = Console.ReadLine();
+        }
+
+
     }
 }

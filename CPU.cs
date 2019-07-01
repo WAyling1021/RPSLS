@@ -11,14 +11,13 @@ namespace RPSLS
         //member variables 
 
 
-        string ChosenGesture;
         //constructor 
 
         //member methods 
-        public void ChooseGesture()
+        public override void ChooseGesture()
         {
             Random rng = new Random();
-            string gesture = gestures[rng.Next(6)];
+            choice = gestures[rng.Next(6) - 1];
         }
     }
 }

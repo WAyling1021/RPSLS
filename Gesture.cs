@@ -8,7 +8,7 @@ namespace RPSLS
 {
     class Gesture
     {
-        //member variables 
+        //member variables
 
         //constructor 
 
